@@ -171,13 +171,13 @@ speed_test() {
 speed() {
 	printf "%-32s%-24s%-14s\n" "Node Name:" "IPv4 address:" "Download Speed"
 	speed_test 'https://origin-a.akamaihd.net/Origin-Client-Download/origin/mac/live/Origin.dmg' 'Akamai'
-    speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
+        speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
 	speed_test 'https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.1.8/xampp-win32-7.1.8-0-VC14-installer.exe' 'Fastly'
 	speed_test 'http://soft.duote.com.cn/chrome_63.0.3239.84.exe' 'CNC CDN'
 	speed_test 'http://en.chinacache.com/wp-content/uploads/LinkedIn.pdf' 'ChinaCache CDN'
 	speed_test 'http://cdn.zstack.io/product_downloads/vrouter/zstack-vrouter-2.1.0.qcow2' 'AliYun CDN'
 	speed_test 'http://pkg.biligame.com/fatego/fatego_v1.16.0_bili_375772.apk' 'QCloud CDN'
-    speed_test 'http://sw.bos.baidu.com/sw-search-sp/software/1bc31d3a7e33c/SketchUpPro_zh_CN_17.1.174.0.exe' 'BaiduYun CDN'
+        speed_test 'http://sw.bos.baidu.com/sw-search-sp/software/1bc31d3a7e33c/SketchUpPro_zh_CN_17.1.174.0.exe' 'BaiduYun CDN'
 	speed_test 'http://bigota.d.miui.com/JMACNBL18.0/miui_Mioneplus_JMACNBL18.0_6b0e616a48_4.1.zip' 'KS Yun CDN'
 	speed_test 'http://speedtest.tokyo.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
 	speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo2.bin' 'Linode, Tokyo2, JP'
@@ -306,8 +306,8 @@ backtracetest(){
 	mtrback "210.51.45.1" "Shanghai China Netcom(CUII)"
 	mtrback "219.141.225.1" "Beijing China Telecom"
 	mtrback "125.33.55.33" "Beijing China Unicom"
-    mtrback "113.65.124.1" "Guangzhou China Telecom"
-	mtrback "223.93.170.42" "Shenzhen Topway"
+        mtrback "113.65.124.1" "Guangzhou China Telecom"
+	mtrback "36.36.97.16" "Shenzhen Topway"
 	mtrback "183.60.137.161" "Shantou China Telecom"
 	mtrback "14.29.70.1" "Foshan China Telecom"
 	mtrback "163.177.152.1" "Foshan China Unicom"
