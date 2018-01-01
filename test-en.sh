@@ -173,7 +173,7 @@ speed() {
 	speed_test 'https://origin-a.akamaihd.net/Origin-Client-Download/origin/mac/live/Origin.dmg' 'Akamai'
         speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
 	speed_test 'https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.1.8/xampp-win32-7.1.8-0-VC14-installer.exe' 'Fastly'
-	speed_test 'http://soft.duote.com.cn/chrome_63.0.3239.84.exe' 'CNC CDN'
+	#speed_test 'http://soft.duote.com.cn/chrome_63.0.3239.84.exe' 'CNC CDN'
 	speed_test 'http://en.chinacache.com/wp-content/uploads/LinkedIn.pdf' 'ChinaCache CDN'
 	speed_test 'http://cdn.zstack.io/product_downloads/vrouter/zstack-vrouter-2.1.0.qcow2' 'AliYun CDN'
 	speed_test 'http://pkg.biligame.com/fatego/fatego_v1.16.0_bili_375772.apk' 'QCloud CDN'
