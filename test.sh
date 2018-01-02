@@ -222,7 +222,7 @@ speed() {
 	speed_test 'http://125.94.49.50/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaTelecom, Guangzhou, CN'
 	speed_test 'http://180.163.68.13/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaTelecom, Shanghai, CN'
 	speed_test 'http://124.232.162.22/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaTelecom, Changsha, CN'
-	speed_test 'http://163.177.113.21/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaUnicom, Huizhou, CN'
+#speed_test 'http://163.177.113.21/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaUnicom, Huizhou, CN'
 	speed_test 'http://210.22.248.178/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaUnicom, Shanghai, CN'
 	speed_test 'http://123.125.9.50/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaUnicom, Beijing, CN'
 	speed_test 'http://223.82.245.41/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaMobile, Jiangxi, CN'
