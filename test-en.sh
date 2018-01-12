@@ -227,6 +227,8 @@ speed() {
 	speed_test 'http://123.125.9.50/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaUnicom, Beijing, CN'
 	speed_test 'http://223.82.245.41/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaMobile, Jiangxi, CN'
 	speed_test 'http://223.111.153.176/dl.softmgr.qq.com/original/game/DuiZhanSetup1_8_4_2042_win10.exe' 'ChinaMobile, Jiangsu, CN'
+	speed_test 'http://101.4.60.106/setup.exe' 'CERNET, Beijing, CN'
+#speed_test 'http://mirrors.opencas.org/apache/ode/apache-ode-war-1.3.6.zip' 'CSTNET, Beijing, CN'
 	speed_test 'http://tpdb.speed2.hinet.net/test_100m.zip' 'Hinet, Taiwan, TW'
 	next
 }
@@ -313,7 +315,8 @@ backtracetest(){
 	mtrback "163.177.152.1" "Foshan China Unicom"
 	mtrback "112.90.49.1" "Zhoushan China Unicom"
 	mtrback "223.82.245.41" "Jiangxi China Mobile"
-	mtrback "101.4.60.106" "Beijing CSTNET"
+	mtrback "101.4.60.106" "Beijing CERNET"
+	mtrback "159.226.254.37" "Beijing CSTNET"
 	mtrback "223.93.170.42" "Hangzhou China Mobile"
 	next | tee -a $logfile
 }
